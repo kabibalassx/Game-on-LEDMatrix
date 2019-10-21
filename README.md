@@ -115,8 +115,13 @@ unsigned char Matrixkey_scan();     //矩阵键盘扫描函数
 ## 四、程序流程图
 
 ### 1、主函数
-![主函数流程图（上）][1]
-[1]:https://raw.githubusercontent.com/kabibalassx/Repository-for-pictures/master/)8KO%7BQP1XL9%40S_(%7D1%7BV_%7B92.jpg
+[主函数流程图](https://raw.githubusercontent.com/kabibalassx/Repository-for-pictures/master/Game%20on%20LEDMatrix%201.jpg)
+
+### 2、定时器0中断函数
+[定时器0中断函数](https://raw.githubusercontent.com/kabibalassx/Repository-for-pictures/master/Game%20on%20LEDMatrix%202.jpg)
+
+### 3、定时器1中断函数
+[定时器1中断函数](https://raw.githubusercontent.com/kabibalassx/Repository-for-pictures/master/Game%20on%20LEDMatrix%203.jpg)
 
 ## 五、关于LED点阵
 * 如果点阵行控与点阵列控都正接单片机的IO口（行控接P0，列控接P1），则行控的低位是上面，列控的低位是左面，既左上角是原点。
