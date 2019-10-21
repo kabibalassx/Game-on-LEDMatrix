@@ -168,4 +168,3 @@ unsigned char Matrixkey_scan();     //矩阵键盘扫描函数
 ## 七、硬件电路设计
 [原理图 & PCB工程链接](https://lceda.cn/kbbl/ji-yu-51dan-pian-ji-yu-LEDdian-zhen-de-you-hu-ji)
 
-
