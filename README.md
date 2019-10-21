@@ -2,24 +2,17 @@
 A game console based on 51 SCM and a LEDmatrix , controlled by 5 keys.
 
 ---
-## *目录
-### 一、实现目标
-#### *1、游戏内容
-#### *2、输入与输出
-### *二、主要数据结构
-### *三、程序文件组成部分
-#### *1、main文件
-#### *2、led文件
-#### *3、game文件
-#### *4、key文件
-#### *5、config文件
-### *四、程序流程图
-#### *1、主函数
-#### *2、定时器0中断函数
-#### *3、定时器1中断函数
-### *六、下一步目标
-### *七、下一步修改
 
+## 目录
+### 一、实现目标
+### 二、主要数据结构
+### 三、程序文件组成部分
+### 四、程序流程图
+### 五、下一步目标
+### 六、下一步修改
+### 七、硬件电路设计
+
+---
 
 ## 一、实现目标
 
@@ -141,11 +134,7 @@ unsigned char Matrixkey_scan();     //矩阵键盘扫描函数
 ### 3、定时器1中断函数
 [定时器1中断函数](https://raw.githubusercontent.com/kabibalassx/Repository-for-pictures/master/Game%20on%20LEDMatrix%203.jpg)
 
-## 五、关于LED点阵
-* 如果点阵行控与点阵列控都正接单片机的IO口（行控接P0，列控接P1），则行控的低位是上面，列控的低位是左面，既左上角是原点。
-* 且行控是共阴的，列控是共阳的；
-
-## 六、下一步目标
+## 五、下一步目标
 * [ ]  1. 在游戏开始与结束时有音乐提示
 
 * [ ]  2. 在吃到亮点时有音效提示
@@ -156,7 +145,7 @@ unsigned char Matrixkey_scan();     //矩阵键盘扫描函数
 
 * [ ] 5. 优化LED点阵显示函数，不在按列动态扫描，用以提高亮度
 
-## 七、下一步修改
+## 六、下一步修改
     
 1. 在led文件中添加
     ```c
@@ -176,7 +165,7 @@ unsigned char Matrixkey_scan();     //矩阵键盘扫描函数
     void Gameover_music();  //游戏结束提示音，在显示数字时
     ```
 
-
-
+## 七、硬件电路设计
+[原理图 & PCB工程链接](https://lceda.cn/kbbl/ji-yu-51dan-pian-ji-yu-LEDdian-zhen-de-you-hu-ji)
 
 
